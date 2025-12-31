@@ -99,8 +99,8 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1(@codemirror/autocomplete@6.20.0)(@codemirror/language@6.12.1)(@codemirror/lint@6.9.2)(@codemirror/state@6.5.3)(@codemirror/view@6.39.7)(@lezer/highlight@1.2.3)(graphql@16.10.0)
       date-fns:
-        specifier: ^2.30.0
-        version: 2.30.0
+        specifier: ^4.0.0
+        version: 4.1.0
       escape-string-regexp:
         specifier: ^5.0.0
         version: 5.0.0
@@ -914,10 +914,6 @@ packages:
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
-
-  '@babel/runtime@7.28.3':
-    resolution: {integrity: sha512-9uIQ10o0WGdpP6GDhXcdOJPJuDgFtIDtN/9+ArJQ2NAfAmiuhTQdzkaTGR33v43GYS2UrSA0eX2pPPHoFVvpxA==}
-    engines: {node: '>=6.9.0'}
 
   '@babel/runtime@7.28.4':
     resolution: {integrity: sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==}
@@ -3283,9 +3279,8 @@ packages:
   dataloader@2.2.3:
     resolution: {integrity: sha512-y2krtASINtPFS1rSDjacrFgn1dcUuoREVabwlOGOe4SdxenREqwjwjElAdwvbGM7kgZz9a3KVicWR7vcz8rnzA==}
 
-  date-fns@2.30.0:
-    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
-    engines: {node: '>=0.11'}
+  date-fns@4.1.0:
+    resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
 
   dayjs@1.11.13:
     resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
@@ -7417,8 +7412,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/runtime@7.28.3': {}
-
   '@babel/runtime@7.28.4': {}
 
   '@babel/template@7.27.2':
@@ -10147,9 +10140,7 @@ snapshots:
 
   dataloader@2.2.3: {}
 
-  date-fns@2.30.0:
-    dependencies:
-      '@babel/runtime': 7.28.3
+  date-fns@4.1.0: {}
 
   dayjs@1.11.13: {}
 
